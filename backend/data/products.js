@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Marvel Skull T-Shirt',
     image: '/images/muska-majica-marvel.png',
     description: 'Muska majica kratkih rukava, 100% pamuk, Marvel Skull',
@@ -12,7 +11,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
     name: 'Houose Brand T-Shirt',
     image: '/images/muska-majica-house-brand.png',
     description: 'Muska majica kratkih rukava, 100% pamuk, House Brand',
@@ -24,7 +22,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Blue Sky Sweatshirt',
     image: '/images/muska-dukserica.png',
     description: 'Muska dukserica, 100% pamuk, Jack&Jones',
@@ -36,7 +33,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'Red Meadow Dress',
     image: '/images/zenska-haljina.jpg',
     description: 'Ženska haljuna, 100% pamuk, House',
@@ -48,7 +44,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'Hipi Sky Shirt',
     image: '/images/zenska-kosulja.jpg',
     description: 'Ženska kosulja, 100% pamuk, House',
@@ -60,7 +55,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Yellow Star Sneakers',
     image: '/images/zenske-tenisice.jpg',
     description: 'Zenske tenisice, microfibra',
@@ -72,7 +66,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '7',
     name: 'Buisines Man Sneakers',
     image: '/images/muske-tenisice.jpg',
     description: 'Muske tenisice, microfibra',

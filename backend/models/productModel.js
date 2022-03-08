@@ -15,48 +15,48 @@ const productSchema = mongoose.Schema(
   {
     user: {
       type: mongoose.Schema.Types.ObjectId,
-      require: ture,
+      require: true,
       ref: 'User',
     },
     name: {
       type: String,
-      require: ture,
+      require: true,
     },
     image: {
       type: String,
-      require: ture,
+      require: true,
     },
     brand: {
       type: String,
-      require: ture,
+      require: true,
     },
     category: {
       type: String,
-      require: ture,
+      require: true,
     },
     description: {
       type: String,
-      require: ture,
+      require: true,
     },
     reviews: [reviewSchema],
     rating: {
       type: Number,
-      require: ture,
+      require: true,
       default: 0,
     },
     numReviews: {
       type: Number,
-      require: ture,
+      require: true,
       default: 0,
     },
     price: {
       type: Number,
-      require: ture,
+      require: true,
       default: 0,
     },
     countInStock: {
       type: Number,
-      require: ture,
+      require: true,
       default: 0,
     },
   },
@@ -65,6 +65,6 @@ const productSchema = mongoose.Schema(
   }
 )
 
-const Product = mongoose.Model('User', productSchema)
+const Product = mongoose.model('Product', productSchema)
 
 export default Product
