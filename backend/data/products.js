@@ -3,8 +3,7 @@ const products = [
     _id: '1',
     name: 'Marvel Skull T-Shirt',
     image: '/images/muska-majica-marvel.png',
-    description:
-      'Muska majica kratkih rukava, 100% pamuk, Marvel Skull',
+    description: 'Muska majica kratkih rukava, 100% pamuk, Marvel Skull',
     brand: 'Marvel',
     category: 'T-Shirt',
     price: 69.99,
@@ -16,8 +15,7 @@ const products = [
     _id: '2',
     name: 'Houose Brand T-Shirt',
     image: '/images/muska-majica-house-brand.png',
-    description:
-      'Muska majica kratkih rukava, 100% pamuk, House Brand',
+    description: 'Muska majica kratkih rukava, 100% pamuk, House Brand',
     brand: 'House',
     category: 'T-Shirt',
     price: 69.99,
@@ -29,8 +27,7 @@ const products = [
     _id: '3',
     name: 'Blue Sky Sweatshirt',
     image: '/images/muska-dukserica.png',
-    description:
-      'Muska dukserica, 100% pamuk, Jack&Jones',
+    description: 'Muska dukserica, 100% pamuk, Jack&Jones',
     brand: 'Jack&Jones',
     category: 'Sweatshirt',
     price: 129.99,
@@ -42,8 +39,7 @@ const products = [
     _id: '4',
     name: 'Red Meadow Dress',
     image: '/images/zenska-haljina.jpg',
-    description:
-      'Ženska haljuna, 100% pamuk, House',
+    description: 'Ženska haljuna, 100% pamuk, House',
     brand: 'House',
     category: 'Dress',
     price: 159.99,
@@ -55,8 +51,7 @@ const products = [
     _id: '5',
     name: 'Hipi Sky Shirt',
     image: '/images/zenska-kosulja.jpg',
-    description:
-      'Ženska kosulja, 100% pamuk, House',
+    description: 'Ženska kosulja, 100% pamuk, House',
     brand: 'House',
     category: 'Shirt',
     price: 79.99,
@@ -68,8 +63,7 @@ const products = [
     _id: '6',
     name: 'Yellow Star Sneakers',
     image: '/images/zenske-tenisice.jpg',
-    description:
-      'Zenske tenisice, microfibra',
+    description: 'Zenske tenisice, microfibra',
     brand: 'Addidas',
     category: 'Sneakers',
     price: 199.99,
@@ -81,8 +75,7 @@ const products = [
     _id: '7',
     name: 'Buisines Man Sneakers',
     image: '/images/muske-tenisice.jpg',
-    description:
-      'Muske tenisice, microfibra',
+    description: 'Muske tenisice, microfibra',
     brand: 'Addidas',
     category: 'Sneakers',
     price: 209.99,
@@ -91,5 +84,4 @@ const products = [
     numReviews: 8,
   },
 ]
-
 export default products
