@@ -2,7 +2,7 @@ const products = [
   {
     name: 'Marvel Skull T-Shirt',
     image: '/images/muska-majica-marvel.png',
-    description: 'Muska majica kratkih rukava, 100% pamuk, Marvel Skull',
+    description: 'Muška majica kratkih rukava, 100% pamuk, Marvel Skull',
     brand: 'Marvel',
     category: 'T-Shirt',
     price: 69.99,
@@ -11,9 +11,9 @@ const products = [
     numReviews: 12,
   },
   {
-    name: 'Houose Brand T-Shirt',
+    name: 'House Brand T-Shirt',
     image: '/images/muska-majica-house-brand.png',
-    description: 'Muska majica kratkih rukava, 100% pamuk, House Brand',
+    description: 'Muška majica kratkih rukava, 100% pamuk, House Brand',
     brand: 'House',
     category: 'T-Shirt',
     price: 69.99,
@@ -24,7 +24,7 @@ const products = [
   {
     name: 'Blue Sky Sweatshirt',
     image: '/images/muska-dukserica.png',
-    description: 'Muska dukserica, 100% pamuk, Jack&Jones',
+    description: 'Muška dukserica, 100% pamuk, Jack&Jones',
     brand: 'Jack&Jones',
     category: 'Sweatshirt',
     price: 129.99,
@@ -35,7 +35,7 @@ const products = [
   {
     name: 'Red Meadow Dress',
     image: '/images/zenska-haljina.jpg',
-    description: 'Ženska haljuna, 100% pamuk, House',
+    description: 'Ženska haljina, 100% pamuk, House',
     brand: 'House',
     category: 'Dress',
     price: 159.99,
@@ -46,7 +46,7 @@ const products = [
   {
     name: 'Hipi Sky Shirt',
     image: '/images/zenska-kosulja.jpg',
-    description: 'Ženska kosulja, 100% pamuk, House',
+    description: 'Ženska košulja, 100% pamuk, House',
     brand: 'House',
     category: 'Shirt',
     price: 79.99,
@@ -57,8 +57,8 @@ const products = [
   {
     name: 'Yellow Star Sneakers',
     image: '/images/zenske-tenisice.jpg',
-    description: 'Zenske tenisice, microfibra',
-    brand: 'Addidas',
+    description: 'Ženske tenisice, microfibra',
+    brand: 'Adidas',
     category: 'Sneakers',
     price: 199.99,
     countInStock: 2,
@@ -66,10 +66,10 @@ const products = [
     numReviews: 12,
   },
   {
-    name: 'Buisines Man Sneakers',
+    name: 'Business Man Sneakers',
     image: '/images/muske-tenisice.jpg',
-    description: 'Muske tenisice, microfibra',
-    brand: 'Addidas',
+    description: 'Muške tenisice, microfibra',
+    brand: 'Adidas',
     category: 'Sneakers',
     price: 209.99,
     countInStock: 4,

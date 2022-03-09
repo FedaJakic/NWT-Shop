@@ -22,7 +22,7 @@ const ProductPage = () => {
   return (
     <>
       <Link className='btn btn-light my-3' to='/'>
-        Go Back
+        Natrag
       </Link>
       <Row>
         <Col md={6}>
@@ -36,11 +36,11 @@ const ProductPage = () => {
             <ListGroup.Item>
               <Rating
                 value={product.rating}
-                text={`${product.numReviews} reviews`}
+                text={`${product.numReviews} recenzija`}
               />
             </ListGroup.Item>
-            <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
-            <ListGroup.Item>Description: {product.description}</ListGroup.Item>
+            <ListGroup.Item>Cijena: {product.price} kn</ListGroup.Item>
+            <ListGroup.Item>Opis: {product.description}</ListGroup.Item>
           </ListGroup>
         </Col>
         <Col md={3}>
@@ -48,9 +48,9 @@ const ProductPage = () => {
             <ListGroup variant='flush'>
               <ListGroup.Item>
                 <Row>
-                  <Col>Price:</Col>
+                  <Col>Cijena:</Col>
                   <Col>
-                    <strong>${product.price}</strong>
+                    <strong>{product.price} kn</strong>
                   </Col>
                 </Row>
               </ListGroup.Item>
@@ -58,7 +58,7 @@ const ProductPage = () => {
                 <Row>
                   <Col>Status:</Col>
                   <Col>
-                    {product.countInStock > 0 ? 'In Stock' : 'Out Of Stock'}
+                    {product.countInStock > 0 ? 'Na Stanju' : 'Nema Na Stanju'}
                   </Col>
                 </Row>
               </ListGroup.Item>
@@ -68,7 +68,7 @@ const ProductPage = () => {
                   type='button'
                   disabled={product.countInStock === 0}
                 >
-                  Add To Cart
+                  Dodaj u košaricu
                 </Button>
               </ListGroup.Item>
             </ListGroup>
