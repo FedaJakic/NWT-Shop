@@ -5,14 +5,14 @@ Dependencies:
 
 npm install
 
-frontend file
-npm i react-bootstrap
-npm i axios
-npm i redux react-redux redux-thunk redux-devtools-extension
+frontend file:<br>
+npm i react-bootstrap<br>
+npm i axios<br>
+npm i redux react-redux redux-thunk redux-devtools-extension<br>
 
-root:
-npm i -D nodemon concurrently
-npm i dotenv
-npm i mongoose
-npm i bcryptjs
-npm i express-async-handler
+root:<br>
+npm i -D nodemon concurrently<br>
+npm i dotenv<br>
+npm i mongoose<br>
+npm i bcryptjs<br>
+npm i express-async-handler<br>
