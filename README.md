@@ -1,5 +1,7 @@
 # NWT-Shop
-Seminar iz Naprednih Web Tehnologija WebShop sa MERN stackom i Redux-om
+Seminar iz Naprednih Web Tehnologija WebShop sa MERN stackom i Redux-om.
+
+Korišten MongoDB, MongoDB Compas, Postman
 
 Dependencies:
 
