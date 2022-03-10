@@ -3,7 +3,7 @@ Seminar iz Naprednih Web Tehnologija WebShop sa MERN stackom i Redux-om
 
 Dependencies:
 
-npm install
+<strong>npm install</strong>
 
 <h1><strong>frontend file:</strong></h1><br>
 npm i react-bootstrap<br>
