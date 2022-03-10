@@ -16,10 +16,7 @@ const Header = () => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
               <Nav.Link>
-                <i className='fas fa-shopping-cart'></i>Košarica
-              </Nav.Link>
-              <Nav.Link>
-                <i className='fas fa-user'></i>Prijavi se
+                <i className='fa-solid fa-shirt'></i> Najbolja kvaliteta u gradu
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

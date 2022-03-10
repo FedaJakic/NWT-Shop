@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap'
+import { Row, Col, Image, ListGroup } from 'react-bootstrap'
 import Rating from '../components/Rating'
 import { listProductDetails } from '../actions/productActions'
 import Loader from '../components/Loader'
@@ -32,7 +32,7 @@ const ProductPage = () => {
           <Col md={6}>
             <Image src={product.image} alt={product.name} fluid />
           </Col>
-          <Col md={3}>
+          <Col md={6}>
             <ListGroup variant='flush'>
               <ListGroup.Item>
                 <h2>{product.name}</h2>
@@ -46,39 +46,6 @@ const ProductPage = () => {
               <ListGroup.Item>Cijena: {product.price} kn</ListGroup.Item>
               <ListGroup.Item>Opis: {product.description}</ListGroup.Item>
             </ListGroup>
-          </Col>
-          <Col md={3}>
-            <Card>
-              <ListGroup variant='flush'>
-                <ListGroup.Item>
-                  <Row>
-                    <Col>Cijena:</Col>
-                    <Col>
-                      <strong>{product.price} kn</strong>
-                    </Col>
-                  </Row>
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  <Row>
-                    <Col>Status:</Col>
-                    <Col>
-                      {product.countInStock > 0
-                        ? 'Na Stanju'
-                        : 'Nema Na Stanju'}
-                    </Col>
-                  </Row>
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  <Button
-                    className='btm-block'
-                    type='button'
-                    disabled={product.countInStock === 0}
-                  >
-                    Dodaj u košaricu
-                  </Button>
-                </ListGroup.Item>
-              </ListGroup>
-            </Card>
           </Col>
         </Row>
       )}
