@@ -5,7 +5,7 @@ Dependencies:
 
 npm install
 
-frontend file:
+frontend file
 npm i react-bootstrap
 npm i axios
 npm i redux react-redux redux-thunk redux-devtools-extension
