@@ -15,7 +15,6 @@ npm i redux react-redux redux-thunk redux-devtools-extension<br>
 npm i -D nodemon concurrently<br>
 npm i dotenv<br>
 npm i mongoose<br>
-npm i bcryptjs<br>
 npm i express-async-handler<br>
 
 <h1><strong>POKRETANJE</strong></h1><br>
