@@ -5,9 +5,10 @@ Korišten MongoDB, MongoDB Compas, Postman
 
 Dependencies:
 
-<strong>npm install</strong>
+
 
 <h1><strong>frontend file:</strong></h1><br>
+npm install
 npm i react-bootstrap<br>
 npm i axios<br>
 npm i redux react-redux redux-thunk redux-devtools-extension<br>
