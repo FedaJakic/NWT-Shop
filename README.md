@@ -17,3 +17,6 @@ npm i dotenv<br>
 npm i mongoose<br>
 npm i bcryptjs<br>
 npm i express-async-handler<br>
+
+<h1><strong>POKRETANJE</strong></h1><br>
+npm run dev<br>
